@@ -4,9 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Register Page</title>
 </head>
-<body>
+
+<body class="mainPage">
+
+    <header class="navBar">
+        <a href="#" class="aboutUs">About Us</a>
+        <a href="#" class="logIn">Log In</a>
+    </header>
+    <br>
+    <br>
+
+    <div class="signUp">
+        <h1>Sign Up</h1>
+        <form>
+            <div class="email">
+                <input type="email" 
+                placeholder="Email" 
+                name="email" />
+            </div>
+            <br>
+            <div class="username">
+                <input type="text" placeholder="Username" 
+                name="username" />
+            </div>
+            <br>
+            <div class="password">
+                <input type="password" placeholder="Password" 
+                name="password" />
+            </div>
+            <br>
+            <div class="confirm">
+                <input type="password" placeholder="Confirm Password" name="confirmPassword" />
+            </div>
+            <br>
+            <div class="submit">
+                <button type="submit">Submit</button>
+            </div>
+            <br>
+
+        </form>
+        <hr>
+        <br>
+        <footer class="icons">
+            <img src="./assets/amazonLogo.png" alt="Amazon Icon" height="32" width="32" />
+            <img src="./assets/facebookLogo.png" alt="Facebook Icon" height="32" width="32" />
+            <img src="./assets/gitHubLogo.png" alt="GitHub Icon" height="32" width="32" />
+            <img src="./assets/slackLogo.png" alt="Slack Icon" height="32" width="32" />
+            <img src="./assets/instagramLogo.png" alt="Instagram Icon" height="32" width="32" />
+        </footer>
+    </div>
     
 </body>
 </html>
+
+<!-- We have a white bar at the top of the page.
+    Inside the white bar are two items that appear to be buttons of some sort.
+We also have a white box in the middle of the screen. It contains:
+    A large Sign Up heading
+    An element wrapping around the form. This form contains:
+        An input field for the email, username, password, and confirm password fields.
+        A Submit button.
+    At the bottom of the white box is another box.
+        Inside the element at the bottom are 5 social media images.  -->
